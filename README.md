@@ -1,19 +1,19 @@
 # Simple Blog with Caddy and nip.io
 
-这是一个使用 Caddy 作为 web 服务器，并利用 nip.io 提供免费域名的简单博客项目。
+This is a simple blog project using Caddy as the web server and nip.io for free domain service.
 
-## 功能特点
+## Features
 
-- 简单的博客界面
-- 自动 HTTPS 支持（通过 Caddy）
-- 使用 nip.io 提供的免费域名
-- 响应式设计
+- Simple blog interface
+- Automatic HTTPS support (via Caddy)
+- Free domain service using nip.io
+- Responsive design
 
-## 快速开始
+## Quick Start
 
-1. 安装 Caddy：
+1. Install Caddy:
    ```bash
-   # Windows (使用 Chocolatey)
+   # Windows (using Chocolatey)
    choco install caddy
 
    # Linux
@@ -24,39 +24,39 @@
    sudo apt install caddy
    ```
 
-2. 克隆本项目：
+2. Clone this project:
    ```bash
    git clone [your-repo-url]
    cd [your-repo-name]
    ```
 
-3. 启动服务：
+3. Start the service:
    ```bash
    caddy run
    ```
 
-4. 访问网站：
-   使用你的 IP 地址加上 .nip.io 作为域名，例如：`192.168.1.100.nip.io`
+4. Access the website:
+   Use your IP address with .nip.io as the domain, for example: `192.168.1.100.nip.io`
 
-## 项目结构
+## Project Structure
 
 ```
 .
-├── public/          # 静态文件目录
-│   ├── index.html  # 主页
-│   ├── css/        # 样式文件
-│   └── js/         # JavaScript 文件
-├── Caddyfile       # Caddy 配置文件
-└── README.md       # 项目说明文档
+├── public/          # Static files directory
+│   ├── index.html  # Homepage
+│   ├── css/        # Style files
+│   └── js/         # JavaScript files
+├── Caddyfile       # Caddy configuration file
+└── README.md       # Project documentation
 ```
 
-## 配置说明
+## Configuration
 
-Caddy 会自动处理 SSL 证书的申请和续期。你只需要确保：
-1. 服务器有公网 IP
-2. 80 和 443 端口可以访问
-3. 使用正确的 nip.io 域名格式
+Caddy will automatically handle SSL certificate application and renewal. You just need to ensure:
+1. The server has a public IP
+2. Ports 80 and 443 are accessible
+3. Using the correct nip.io domain format
 
-## 许可证
+## License
 
 MIT License 
