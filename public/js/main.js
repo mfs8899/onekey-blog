@@ -1,6 +1,6 @@
-// 页面加载完成后执行
+// Execute after page load
 document.addEventListener('DOMContentLoaded', function() {
-    // 添加平滑滚动效果
+    // Add smooth scrolling effect
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -13,10 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // 添加文章发布时间
+    // Add post publication time
     const postMetaElements = document.querySelectorAll('.post-meta');
     postMetaElements.forEach(element => {
         const date = new Date();
-        element.textContent = `发布于 ${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+        element.textContent = `Posted on ${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
     });
 }); 
