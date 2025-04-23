@@ -59,4 +59,9 @@ Caddy will automatically handle SSL certificate application and renewal. You jus
 
 ## License
 
-MIT License 
+MIT License
+
+## Sponsorship
+
+This project is powered by VTEXS's "Open Source Project Free VPS Program".
+Thank you VTEXS for supporting the open source community! 
