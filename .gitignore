@@ -1,0 +1,15 @@
+# Caddy 相关
+.caddy/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志文件
+*.log 

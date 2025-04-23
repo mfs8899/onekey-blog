@@ -1,0 +1,22 @@
+{
+    # 启用自动 HTTPS
+    auto_https off
+    # 设置日志级别
+    log {
+        output stdout
+        level INFO
+    }
+}
+
+# 使用 nip.io 域名
+# 注意：将 YOUR_IP 替换为你的实际 IP 地址
+YOUR_IP.nip.io {
+    # 设置根目录
+    root * public
+    # 启用文件浏览
+    file_server
+    # 启用压缩
+    encode gzip
+    # 设置默认文件
+    try_files {path} /index.html
+} 
