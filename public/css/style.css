@@ -1,4 +1,4 @@
-/* 全局样式 */
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ body {
     padding: 0 20px;
 }
 
-/* 导航栏样式 */
+/* Navigation Bar Styles */
 header {
     background-color: #2c3e50;
     color: white;
@@ -54,7 +54,7 @@ nav ul li a:hover {
     color: #3498db;
 }
 
-/* 主要内容区域 */
+/* Main Content Area */
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -62,7 +62,7 @@ main {
     padding: 2rem 0;
 }
 
-/* 博客文章样式 */
+/* Blog Post Styles */
 .blog-posts {
     background: white;
     padding: 2rem;
@@ -91,7 +91,7 @@ main {
     margin-bottom: 1rem;
 }
 
-/* 侧边栏样式 */
+/* Sidebar Styles */
 .sidebar {
     background: white;
     padding: 2rem;
@@ -127,7 +127,7 @@ main {
     text-decoration: underline;
 }
 
-/* 页脚样式 */
+/* Footer Styles */
 footer {
     background-color: #2c3e50;
     color: white;
@@ -136,7 +136,7 @@ footer {
     margin-top: 2rem;
 }
 
-/* 响应式设计 */
+/* Responsive Design */
 @media (max-width: 768px) {
     main {
         grid-template-columns: 1fr;
